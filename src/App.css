@@ -6,6 +6,56 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
+.mortgage-box{
+  display: table;
+  justify-content: center;
+  margin:20px;
+  width: auto
+}
+.form{
+  display: grid;
+}
+
+.how-much{
+  /* display: block; */
+border:2px #282c34 solid;
+margin: 5px;
+padding: 5px;
+text-align: justify;
+display: table;
+
+}
+.borrow{
+  height: 50px;
+  line-height: 40px;
+  text-align: center;
+  border: 2px dashed #f69c55;
+  padding:20px;
+}
+
+body{
+  background-color: #B7E3CC;
+}
+.all{
+  display: flex;
+  justify-content: space-around;
+}
+.header{
+  font-size: 100px;
+  text-align: center;
+  background-color: grey;
+  border-radius: 90px;
+  color: white;
+
+  /* position: fixed;
+  left: 0;
+  top: 0; */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+}
+
 
 .App-header {
   background-color: #282c34;
